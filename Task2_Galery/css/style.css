@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/background_image.jpg);
+}
+
+.main-form {
+    width: 50%;
+    margin: 0 auto;
+ 
+}
+
+.main-form .template {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+    width: 23%;
+    height: 400px;
+    margin: 20px 10px;
+    background-image: url(../img/background_image_for_template.jpg);
+}
+
+.main-form .template img {
+    display: block;
+    max-width: 92%;
+    max-height: 60%;
+    object-fit: contain;
+
+    margin: 3%;
+   
+}
+
+.main-form .template .subtitle-of-img {
+    text-align: center;
+    width: 100%;
+}
